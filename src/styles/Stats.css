@@ -119,15 +119,28 @@
   .accent-line {
     height: 80px;
   }
+  .hero-stats-section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+ background:#090505;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  
+  
+}
 }
 
 @media (max-width: 768px) {
   .hero-stats-section {
-    min-height: 500px;
+    min-height: 400px;
     padding: 60px 0;
   }
 
-  .hero-title {
+  .hero-stats-section {
     font-size: 2rem;
   }
 
@@ -174,5 +187,11 @@
     text-align: center;
     flex-direction: column;
     gap: 15px;
+  }
+}
+/* Hide hero stats section on mobile devices */
+@media (max-width: 768px) {
+  .hero-stats-section {
+    display: none;
   }
 }
