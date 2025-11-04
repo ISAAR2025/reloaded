@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 650px;
- background-image: url("https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=1920&q=80");
+ background-image: url('../assets/images/stackbg.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,15 +12,7 @@
   
 }
 
-.stats-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgb(16 14 14 / 29%);
-  z-index: 1;
-}
+
 
 .hero-stats-section {
   position: relative;
@@ -123,7 +115,7 @@
   position: relative;
   width: 100%;
   height: 100%;
- background:#090505;
+ background-image: url('../assets/images/stackbg.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
